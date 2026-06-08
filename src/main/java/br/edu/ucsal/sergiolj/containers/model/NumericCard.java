@@ -1,4 +1,4 @@
-package br.edu.ucsal.sergiolj.javafxexemplos.model;
+package br.edu.ucsal.sergiolj.containers.model;
 
 
 import javafx.fxml.FXMLLoader;
@@ -11,7 +11,7 @@ public class NumericCard extends Button {
     public NumericCard(String name){
         setText(name);
 
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/keyboard_card.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/keypad_card.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

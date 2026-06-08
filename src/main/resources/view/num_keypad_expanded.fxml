@@ -2,9 +2,10 @@
 
 <?import javafx.scene.layout.*?>
 
-<GridPane xmlns="http://javafx.com/javafx"
+<GridPane
+        fx:id="gr_numExp" xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="br.edu.ucsal.sergiolj.javafxexemplos.controller.NumKeypadExpController"
+            fx:controller="br.edu.ucsal.sergiolj.containers.controller.NumGridKeypadExpController"
             prefHeight="400.0" prefWidth="600.0">
 
 </GridPane>

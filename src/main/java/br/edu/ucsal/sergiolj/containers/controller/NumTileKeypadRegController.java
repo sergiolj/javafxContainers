@@ -1,7 +1,7 @@
-package br.edu.ucsal.sergiolj.javafxexemplos.controller;
+package br.edu.ucsal.sergiolj.containers.controller;
 
-import br.edu.ucsal.sergiolj.javafxexemplos.model.KeyboardLayout;
-import br.edu.ucsal.sergiolj.javafxexemplos.model.NumericCard;
+import br.edu.ucsal.sergiolj.containers.model.KeyboardLayout;
+import br.edu.ucsal.sergiolj.containers.model.NumericCard;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
@@ -11,7 +11,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class NumKeypadRegularController implements Initializable{
+public class NumTileKeypadRegController implements Initializable{
     //É um container especificamente para lidar com estruturas regulares com espaços iguais como azulejos numa parede.
     @FXML
     private TilePane tilePane;

@@ -4,7 +4,7 @@
 
 <TilePane
         fx:id="tilePane"
-        fx:controller="br.edu.ucsal.sergiolj.javafxexemplos.controller.NumKeypadRegularController"
+        fx:controller="br.edu.ucsal.sergiolj.containers.controller.NumTileKeypadRegController"
         style="-fx-background-color: #272727;"
         xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
 />

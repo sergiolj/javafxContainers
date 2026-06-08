@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                br.edu.ucsal.sergiolj.javafxexemplos/br.edu.ucsal.sergiolj.javafxexemplos.NumericKeyboard
+                                br.edu.ucsal.sergiolj.javafxexemplos/br.edu.ucsal.sergiolj.containers.NumericKeyboard
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

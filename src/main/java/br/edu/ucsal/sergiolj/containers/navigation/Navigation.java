@@ -1,4 +1,4 @@
-package br.edu.ucsal.sergiolj.javafxexemplos.navigation;
+package br.edu.ucsal.sergiolj.containers.navigation;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -40,14 +40,20 @@ public class Navigation {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 
-    public static void loadNumKeyboard(){
+    public static void loadNumKeypadReg(){
         String fxml = "/view/num_keypad_compact.fxml";
         String tittle = "Numeric Keyboard";
         double width = 390;
         double height = 390;
+        load(fxml,tittle,width,height);
+    }
+    public static void loadNumKeypadExp(){
+        String fxml = "/view/num_keypad_expanded.fxml";
+        String tittle = "Numeric Keyboard";
+        double width = 390;
+        double height = 500;
         load(fxml,tittle,width,height);
     }
 }
